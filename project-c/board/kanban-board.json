@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-08-11T08:06:23.430Z",
+  "groups": [
+    {
+      "id": "e9a5c88f-8b6a-44ee-94c4-e33a0a589275",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "6c448537-d597-49e4-8443-3c7133ac28c9",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The requirement to order food on a phone while walking from class is vague because it does not specify how students should place an order, what information is required, or when the order is considered confirmed.",
+    "ambiguity2": "The requirement for the kitchen display system to work offline for at least 10 minutes is vague because it does not specify which functions must remain available offline or how orders should be handled and synchronized when the connection is restored.",
+    "conflictSolution": "The Chef needs sold-out items to be unavailable immediately, while the IT team requires the kitchen display system to continue working offline. The system should allow the kitchen to mark an item as Sold Out locally while offline, store the change locally, and synchronize it with the central system when the connection is restored.",
+    "nfr1": "Performance: The ordering system should allow students to place food orders quickly to reduce cafeteria queue times.",
+    "nfr2": "Availability: The kitchen display system should continue operating offline for at least 10 minutes without crashing and synchronize data when the connection is restored.",
+    "nfr3": "Usability: The menu should provide an easy-to-use allergy filter so students can quickly hide foods containing specified allergens."
+  }
+}
