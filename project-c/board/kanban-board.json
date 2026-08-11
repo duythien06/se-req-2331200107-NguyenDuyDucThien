@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-11T08:06:23.430Z",
+  "savedAt": "2026-08-11T08:12:05.875Z",
   "groups": [
     {
       "id": "e9a5c88f-8b6a-44ee-94c4-e33a0a589275",
@@ -17,7 +17,88 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "484ed259-be5a-4f82-a5ef-82a2bf480534",
+      "title": "Order food by phone",
+      "description": "As a Student, I want to order food on my phone, so that I can order while walking from class and reduce the time I spend waiting in the cafeteria queue.\n\nAcceptance Criteria:\n- The student can view available food items.\n- The student can add food items to an order.\n- The student can submit the order from the phone.\n- The system confirms that the order was successfully submitted.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "620a9544-7a0a-4497-8935-441c3277c136",
+      "title": "Filter menu by allergens",
+      "description": "As a Student with a food allergy, I want to filter the menu by allergens, so that I do not see foods containing ingredients I need to avoid.\n\nAcceptance Criteria:\n- The student can select an allergen filter such as No Peanuts.\n- The menu hides items that contain the selected allergen.\n- Items containing the selected allergen are not displayed while the filter is active.\n- The student can remove the filter and view the full menu again.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Student"
+    },
+    {
+      "id": "e6dc8767-0dae-4c20-8504-bf16bb25f468",
+      "title": "Receive daily special notification",
+      "description": "As a Student, I want to receive a push notification about the daily special at 11:30 AM, so that I can learn about available discounts before ordering lunch.\n\nAcceptance Criteria:\n- The system can send a push notification to students who have notifications enabled.\n- The notification is scheduled for 11:30 AM.\n- The notification contains the daily special and its discount.\n- Students who have disabled notifications do not receive the notification.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "6883218b-a7ce-41c6-9d0e-4e814fd6f96b",
+      "title": "Mark food item as Sold Out",
+      "description": "As an Administrator/Staff, I want to mark a food item as Sold Out instantly, so that students cannot order an item after it is no longer available.\n\nAcceptance Criteria:\n- Authorized staff can mark an available food item as Sold Out.\n- The item is immediately shown as Sold Out.\n- Students cannot add a Sold Out item to a new order.\n- The item can be made available again by authorized staff.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator/Staff"
+    },
+    {
+      "id": "6d4bf6ec-2c30-4025-b4b3-930a913a34fd",
+      "title": "View incoming orders on kitchen display",
+      "description": "As an Administrator/Staff, I want to see incoming food orders on the kitchen display, so that kitchen staff can prepare orders as they arrive.\n\nAcceptance Criteria:\n- New orders appear on the kitchen display.\n- Each order shows the ordered food items.\n- The kitchen staff can see newly received orders without manually refreshing the page.\n- Orders remain visible until they are processed.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "High",
+      "owner": "Administrator/Staff"
+    },
+    {
+      "id": "cc733c09-926f-4f0d-b97d-ea791792865a",
+      "title": "NFR Epic 1: Performance: The ordering system should allow students to place food o",
+      "description": "Performance: The ordering system should allow students to place food orders quickly to reduce cafeteria queue times.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "f2cf7c08-5372-4720-8632-7dc520b0294a",
+      "title": "NFR Epic 2: Availability: The kitchen display system should continue operating off",
+      "description": "Availability: The kitchen display system should continue operating offline for at least 10 minutes without crashing and synchronize data when the connection is restored.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "25b037fb-45e2-4f37-81fe-8d98a8439bc7",
+      "title": "NFR Epic 3: Usability: The menu should provide an easy-to-use allergy filter so st",
+      "description": "Usability: The menu should provide an easy-to-use allergy filter so students can quickly hide foods containing specified allergens.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "The requirement to order food on a phone while walking from class is vague because it does not specify how students should place an order, what information is required, or when the order is considered confirmed.",
     "ambiguity2": "The requirement for the kitchen display system to work offline for at least 10 minutes is vague because it does not specify which functions must remain available offline or how orders should be handled and synchronized when the connection is restored.",
