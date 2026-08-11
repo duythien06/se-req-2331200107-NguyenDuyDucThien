@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-11T07:35:21.517Z",
+  "savedAt": "2026-08-11T07:42:28.961Z",
   "groups": [
     {
       "id": "e9a5c88f-8b6a-44ee-94c4-e33a0a589275",
@@ -67,6 +67,36 @@
       "type": "User Story",
       "priority": "Medium",
       "owner": "Student"
+    },
+    {
+      "id": "87303e7e-9c58-44db-a666-93176f499e9d",
+      "title": "NFR Epic 1: Student schedule data must only be accessible to the student who owns ",
+      "description": "Student schedule data must only be accessible to the student who owns the schedule and authorized university staff.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "a967f757-8153-4eb3-b5ca-a7d6acf4eb81",
+      "title": "NFR Epic 2: Performance: The system should respond quickly when checking course pr",
+      "description": "Performance: The system should respond quickly when checking course prerequisites and course availability.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "26aa7c8e-0eec-4a51-b190-68c9cda87649",
+      "title": "NFR Epic 3: Usability: The course catalog should provide an easy-to-use interface ",
+      "description": "Usability: The course catalog should provide an easy-to-use interface that allows students to drag and drop courses into a calendar.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
     }
   ],
   "analysis": {
