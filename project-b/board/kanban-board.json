@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-11T08:01:02.155Z",
+  "savedAt": "2026-08-11T08:04:05.106Z",
   "groups": [
     {
       "id": "e9a5c88f-8b6a-44ee-94c4-e33a0a589275",
@@ -19,9 +19,9 @@
   ],
   "tickets": [
     {
-      "id": "7500adc9-0477-497d-a836-79ce497085cc",
-      "title": "Plan course schedule",
-      "description": "As a Student, I want to drag and drop courses into a calendar, so that I can see whether my planned courses fit my schedule.\n\nAcceptance Criteria:\n- The student can select a course from the course catalog.\n- The student can drag the selected course into a calendar.\n- The course appears in the selected calendar time slot.\n- The student can see the planned course on the calendar.",
+      "id": "d8327659-715d-402a-8a14-212299e42fe9",
+      "title": "As a Student, I want to create an account using my university .edu email, so that only mem",
+      "description": "As a Student, I want to create an account using my university .edu email, so that only members of the university can use the marketplace.\n\nAcceptance Criteria:\n- The system requires a .edu email address when creating an account.\n- The system verifies the email address before activating the account.\n- A user without a valid .edu email cannot create an active account.",
       "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
       "status": "todo",
       "type": "User Story",
@@ -29,9 +29,9 @@
       "owner": "Student"
     },
     {
-      "id": "ea7a0d89-a126-42e5-85a9-35c5f69e747f",
-      "title": "Check course prerequisites",
-      "description": "As a Student, I want the system to check course prerequisites before I select a course, so that I do not choose a course I am not eligible to take.\n\nAcceptance Criteria:\n- The system checks the prerequisites of the selected course.\n- The system shows whether the student has completed the required prerequisites.\n- The system prevents the student from selecting a course when a required prerequisite is missing.",
+      "id": "39c8febd-d70f-40ca-879d-b531a0e31c37",
+      "title": "Scan item barcode",
+      "description": "As a Student, I want to scan an item's barcode with my phone camera, so that I can quickly enter the item's ISBN and title when creating a listing.\n\nAcceptance Criteria:\n- The student can open the barcode scanner when creating a listing.\n- The system can scan the item's barcode using the phone camera.\n- The system fills in the ISBN and title from the scanned barcode when the information is available.\n- The student can review the scanned information before creating the listing.",
       "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
       "status": "todo",
       "type": "User Story",
@@ -39,9 +39,9 @@
       "owner": "Student"
     },
     {
-      "id": "7c4f66d5-fabf-4a38-967d-60592e85364d",
-      "title": "Warn about 8:00 AM classes",
-      "description": "As a Student, I want the system to warn me when I choose a class that starts at 8:00 AM, so that I can avoid scheduling classes that I may have difficulty attending.\n\nAcceptance Criteria:\n- The system detects when a selected class starts at 8:00 AM.\n- The system displays a warning to the student.\n- The warning is displayed before the student confirms the course selection.",
+      "id": "94fe5668-83d6-4fd9-be06-6fb9986ec976",
+      "title": "Create auction listing",
+      "description": "As a Student, I want to create an auction for an item, so that I can sell my item through competitive bidding.\n\nAcceptance Criteria:\n- The student can choose auction as the listing type.\n- The student can enter the item information and starting price.\n- The system creates the listing as an auction.\n- Other students can see that the listing is an auction.",
       "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
       "status": "todo",
       "type": "User Story",
@@ -49,9 +49,19 @@
       "owner": "Student"
     },
     {
-      "id": "627b2f48-cc81-4e0b-88c1-6e855531a1f5",
-      "title": "Override course prerequisite",
-      "description": "As an Administrator/Staff, I want to manually override a prerequisite requirement for a student with special permission, so that the student can take an approved course.\n\nAcceptance Criteria:\n- Authorized staff can override a prerequisite for a student.\n- The system records that the prerequisite was overridden.\n- The override is only available to authorized staff.",
+      "id": "ce992018-3281-458b-9948-b3c510d919d9",
+      "title": "Select Safe Exchange Zone",
+      "description": "As a Student, I want to select a Safe Exchange Zone before starting a chat with another user, so that physical meetups can take place in a safer location.\n\nAcceptance Criteria:\n- The system displays available Safe Exchange Zones.\n- The student must select a Safe Exchange Zone before starting a chat for a physical meetup.\n- The system prevents the student from starting the chat if no Safe Exchange Zone is selected.\n- The selected Safe Exchange Zone is shown to the users involved in the meetup.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "58ac6083-95aa-447a-80cb-cdb48be596de",
+      "title": "Manage marketplace listings",
+      "description": "As an Administrator/Staff, I want to manage marketplace listings that violate university marketplace rules, so that the marketplace remains safe and appropriate for students.\n\nAcceptance Criteria:\n- Authorized staff can view marketplace listings that have been reported.\n- Authorized staff can remove a listing that violates marketplace rules.\n- The system records that the listing was removed.\n- Students can no longer view a removed listing.",
       "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
       "status": "todo",
       "type": "User Story",
@@ -59,19 +69,9 @@
       "owner": "Administrator/Staff"
     },
     {
-      "id": "5b53f630-f222-47a9-916f-682f6b8d8276",
-      "title": "View course prerequisites",
-      "description": "As a Student, I want to view the prerequisites for a course, so that I can understand what courses I need to complete before taking it.\n\nAcceptance Criteria:\n- The system displays the prerequisites for the selected course.\n- The student can see which required prerequisites have been completed.\n- The system clearly indicates any missing prerequisites.",
-      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
-      "status": "todo",
-      "type": "User Story",
-      "priority": "Medium",
-      "owner": "Student"
-    },
-    {
-      "id": "e5757668-ba14-4ed2-a297-3c41b1c83415",
-      "title": "NFR Epic 1: Student schedule data must only be accessible to the student who owns ",
-      "description": "Student schedule data must only be accessible to the student who owns the schedule and authorized university staff.",
+      "id": "47c6e371-a674-4810-80ef-640e4791829e",
+      "title": "NFR Epic 1: Security: Only users with a valid verified .edu email address should b",
+      "description": "Security: Only users with a valid verified .edu email address should be allowed to create an account.",
       "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
       "status": "todo",
       "type": "Epic",
@@ -79,9 +79,9 @@
       "owner": ""
     },
     {
-      "id": "85ff05bc-9860-4de1-a12f-0725b32b1cfd",
-      "title": "NFR Epic 2: Performance: The system should respond quickly when checking course pr",
-      "description": "Performance: The system should respond quickly when checking course prerequisites and course availability.",
+      "id": "ab2e3bb0-766b-484c-ae77-35681b42488f",
+      "title": "NFR Epic 2: Safety: The system should require users to select a Safe Exchange Zone",
+      "description": "Safety: The system should require users to select a Safe Exchange Zone before they can start a chat for a physical meetup.",
       "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
       "status": "todo",
       "type": "Epic",
@@ -89,9 +89,9 @@
       "owner": ""
     },
     {
-      "id": "fd5e08e8-a117-4872-9c63-ed366067abaa",
-      "title": "NFR Epic 3: Usability: The course catalog should provide an easy-to-use interface ",
-      "description": "Usability: The course catalog should provide an easy-to-use interface that allows students to drag and drop courses into a calendar.",
+      "id": "d6778264-d770-4211-9b0a-5aa39f55c7c6",
+      "title": "NFR Epic 3: Usability: Students should be able to scan an item's barcode with thei",
+      "description": "Usability: Students should be able to scan an item's barcode with their phone camera to enter product information instead of manually typing the ISBN and title.",
       "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
       "status": "todo",
       "type": "Epic",
