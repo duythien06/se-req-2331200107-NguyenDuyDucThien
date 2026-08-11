@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-11T07:53:21.262Z",
+  "savedAt": "2026-08-11T08:01:02.155Z",
   "groups": [
     {
       "id": "e9a5c88f-8b6a-44ee-94c4-e33a0a589275",
@@ -100,11 +100,11 @@
     }
   ],
   "analysis": {
-    "ambiguity1": "The requirement is vague because \"stop them from even asking\" does not clearly define how the system should prevent students from asking about prerequisite eligibility. It is unclear whether the system should automatically check prerequisites, prevent students from selecting invalid courses, or simply display a warning.",
-    "ambiguity2": "The requirement is vague because it does not specify how or when the system should warn students about classes that start at 8:00 AM. It is unclear whether the warning should appear before adding the course, after adding it, or prevent the student from selecting the course.",
-    "conflictSolution": "The Registrar wants students to be prevented from adding courses that are full, while the Head of Advising wants students to plan courses four years in advance even when course availability is unknown. The system should separate planning from enrollment. Students should be allowed to add future courses to their four-year roadmap when availability is unknown. During the current enrollment period, the system should check the live database and prevent students from adding courses that are full.",
-    "nfr1": "Student schedule data must only be accessible to the student who owns the schedule and authorized university staff.",
-    "nfr2": "Performance: The system should respond quickly when checking course prerequisites and course availability.",
-    "nfr3": "Usability: The course catalog should provide an easy-to-use interface that allows students to drag and drop courses into a calendar."
+    "ambiguity1": "The requirement that only users with a valid .edu email address can create an account is vague because it does not specify how the system will verify that the email address is valid and belongs to the university.",
+    "ambiguity2": "The requirement to suggest Safe Exchange Zones and force users to select one before chatting is vague because it does not specify how the system should choose or recommend a safe zone for a particular meetup.",
+    "conflictSolution": "The Student Union President wants the app to collect a 2% transaction fee, while the University Legal Team says the university cannot handle any money and the app cannot process payments. The app should not process or hold student payments. The 2% fee should only be considered if the university approves a separate compliant payment arrangement; otherwise, the transaction fee should be removed from the marketplace.",
+    "nfr1": "Security: Only users with a valid verified .edu email address should be allowed to create an account.",
+    "nfr2": "Safety: The system should require users to select a Safe Exchange Zone before they can start a chat for a physical meetup.",
+    "nfr3": "Usability: Students should be able to scan an item's barcode with their phone camera to enter product information instead of manually typing the ISBN and title."
   }
 }
