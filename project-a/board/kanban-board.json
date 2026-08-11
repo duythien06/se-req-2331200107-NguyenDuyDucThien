@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-08-11T06:25:24.137Z",
+  "savedAt": "2026-08-11T07:35:21.517Z",
   "groups": [
     {
       "id": "e9a5c88f-8b6a-44ee-94c4-e33a0a589275",
@@ -17,7 +17,58 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "fa82692f-3c9a-4de4-aefb-1f63ffc5c2ea",
+      "title": "Plan course schedule",
+      "description": "As a Student, I want to drag and drop courses into a calendar, so that I can see whether my planned courses fit my schedule.\n\nAcceptance Criteria:\n- The student can select a course from the course catalog.\n- The student can drag the selected course into a calendar.\n- The course appears in the selected calendar time slot.\n- The student can see the planned course on the calendar.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "b6e6144b-eacf-4c0b-bfee-282aa6379f93",
+      "title": "Check course prerequisites",
+      "description": "As a Student, I want the system to check course prerequisites before I select a course, so that I do not choose a course I am not eligible to take.\n\nAcceptance Criteria:\n- The system checks the prerequisites of the selected course.\n- The system shows whether the student has completed the required prerequisites.\n- The system prevents the student from selecting a course when a required prerequisite is missing.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "30015f6a-a1b3-4018-830f-007408c9ffd8",
+      "title": "Warn about 8:00 AM classes",
+      "description": "As a Student, I want the system to warn me when I choose a class that starts at 8:00 AM, so that I can avoid scheduling classes that I may have difficulty attending.\n\nAcceptance Criteria:\n- The system detects when a selected class starts at 8:00 AM.\n- The system displays a warning to the student.\n- The warning is displayed before the student confirms the course selection.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    },
+    {
+      "id": "e6c0034a-e046-492d-99cd-4e1de079e0eb",
+      "title": "Override course prerequisite",
+      "description": "As an Administrator/Staff, I want to manually override a prerequisite requirement for a student with special permission, so that the student can take an approved course.\n\nAcceptance Criteria:\n- Authorized staff can override a prerequisite for a student.\n- The system records that the prerequisite was overridden.\n- The override is only available to authorized staff.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Administrator/Staff"
+    },
+    {
+      "id": "ce29e4f2-400f-4869-af53-481a40259a9e",
+      "title": "View prerequisite information",
+      "description": "As a Student, I want to view the prerequisites for a course, so that I can understand what courses I need to complete before taking it.\n\nAcceptance Criteria:\n- The system displays the prerequisites for the selected course.\n- The student can see which required prerequisites have been completed.\n- The system clearly indicates any missing prerequisites.",
+      "groupId": "cf932db9-dd23-40b1-8d70-a4485b9467ce",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": "Student"
+    }
+  ],
   "analysis": {
     "ambiguity1": "The requirement is vague because \"stop them from even asking\" does not clearly define how the system should prevent students from asking about prerequisite eligibility. It is unclear whether the system should automatically check prerequisites, prevent students from selecting invalid courses, or simply display a warning.",
     "ambiguity2": "The requirement is vague because it does not specify how or when the system should warn students about classes that start at 8:00 AM. It is unclear whether the warning should appear before adding the course, after adding it, or prevent the student from selecting the course.",
